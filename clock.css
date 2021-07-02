@@ -1,0 +1,75 @@
+*{
+	box-sizing: border-box;;
+	margin:0;
+	padding:0;	
+}
+body{
+    font-family: 'montserrat', sans-serif;
+   	animation: bg infinite 6.5s ;
+
+}
+.clock{
+	position: absolute;
+	color: black;
+	top:30%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-size: 60px;
+}
+@keyframes bg{
+
+	0%
+	{
+		background-image: url('1.jpg');
+		background-size: cover;
+	}
+	10%
+	{
+		background-image: url('2.jpg');
+		background-size: cover;
+	}
+	20%
+	{
+		background-image: url('3.jpg');
+		background-size: cover;
+	}
+	30%
+	{
+		background-image: url('4.jpg');
+	}
+	40%
+	{
+		background-image: url('5.jpg');
+		background-size: cover;
+	}
+	50%
+	{
+		background-image: url('6.jpg');
+		background-size: cover;
+	}
+	60%
+	{
+		background-image: url('7.jpg');
+		background-size: cover;
+	}
+	70%
+	{
+		background-image: url('8.jpg');
+		background-size: cover;
+	}
+	80%
+	{
+		background-image: url('9.jpg');
+		background-size: cover;
+	}
+	90%
+	{
+		background-image: url('10.jpg');
+		background-size: cover;
+	}
+	100%
+	{
+		background-image: url('11.jpg');
+		background-size: cover;
+	}
+}
